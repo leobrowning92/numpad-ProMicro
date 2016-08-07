@@ -18,5 +18,8 @@ showing up on the Arduino IDE. I gather it has something to do with
 
 ##singleswitchtest
 Wiring was simply one pin on a MX green to pin10 on my ProMicro and the other
-to GND. It should open up a new terminal (In ubuntu, mind you) and print
-"Hello World".
+to GND. It should open up a new tab (if you are in chrome) and then head
+to your favorite page
+
+I used the [Arduino Modifier Guide](https://www.arduino.cc/en/Reference/KeyboardModifiers)
+to determine the codes needed
