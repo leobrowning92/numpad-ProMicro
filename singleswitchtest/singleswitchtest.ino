@@ -2,9 +2,9 @@
 #include <Keyboard.h>
 
 //I have used pin 10 on my board for my switch
-const int inputPin =10;
+const int inputPin = 10;
 
-Bounce button0=Bounce();
+Bounce button0 = Bounce();
 
 void setup() {
   // Sets up the input pin for your single switch
@@ -14,27 +14,27 @@ void setup() {
 
   //starts the keyboard emulator
   Keyboard.begin();
-  
+
 
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
   button0.update();
-  if (button0.fallingEdge()){
+  if (button0.fallingEdge()) {
 
     //key command ctrl+t to open a new tab
     Keyboard.press(KEY_LEFT_CTRL);
     Keyboard.press('t');
     Keyboard.releaseAll();
-    
+
     delay(500);
 
     //a clasic Hello world string
-    Keyboard.print("reddit.com/r/mechanicalkeyboards");
+    Keyboard.print("arduino.cc");
     Keyboard.press(KEY_RETURN);
     Keyboard.releaseAll();
   }
-  
+
 
 }

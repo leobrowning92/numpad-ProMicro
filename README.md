@@ -19,7 +19,17 @@ showing up on the Arduino IDE. I gather it has something to do with
 ##singleswitchtest
 Wiring was simply one pin on a MX green to pin10 on my ProMicro and the other
 to GND. It should open up a new tab (if you are in chrome) and then head
-to your favorite page
+to your favorite page.
 
 I used the [Arduino Modifier Guide](https://www.arduino.cc/en/Reference/KeyboardModifiers)
-to determine the codes needed
+to determine the codes needed for modifier keys.
+
+##sixwitchtest
+at the moment i have my switches mapped for a couple of things
+(keep in mind I am running Ubuntu 16.04 and the shortcuts are for that)
+- new terminal
+- lock computer
+- copy to new tab and search (in chrome)
+- git clone <clipboard>
+- nautilus .
+- open up your favorite webpage (in chrome)
