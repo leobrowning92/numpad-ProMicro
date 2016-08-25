@@ -34,3 +34,5 @@ at the moment i have my switches mapped for a couple of things
 - git clone <clipboard>
 - nautilus .
 - open up your favorite webpage (in chrome)
+
+stl for the case can be found on [here](http://www.thingiverse.com/thing:1735671) and images of the final build [here](http://imgur.com/gallery/pZwyw)
