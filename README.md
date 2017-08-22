@@ -17,7 +17,7 @@ on Sparkfuns page to be very helpful in figuring out why my serial port wasn't
 showing up on the Arduino IDE. I gather it has something to do with
 [Resetting the Bootloader](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/troubleshooting-and-faq).
 
-##singleswitchtest
+## singleswitchtest
 Wiring was simply one pin on a MX green to pin10 on my ProMicro and the other
 to GND. It should open up a new tab (if you are in chrome) and then head
 to your favorite page.
@@ -25,7 +25,7 @@ to your favorite page.
 I used the [Arduino Modifier Guide](https://www.arduino.cc/en/Reference/KeyboardModifiers)
 to determine the codes needed for modifier keys.
 
-##sixwitchtest
+## sixwitchtest
 at the moment i have my switches mapped for a couple of things
 (keep in mind I am running Ubuntu 16.04 and the shortcuts are for that)
 - new terminal
